@@ -3,7 +3,7 @@ package software.ulpgc.visorimagenes;
 import javax.swing.*;
 import java.io.File;
 
-//visor de imagenes listo
+//visor de imagenes listo y mas kata 7
 public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
