@@ -14,9 +14,8 @@ public class SwingImageDisplay extends JPanel implements ImageDisplay {
     private double rotationAngle = 0.0;
 
     public SwingImageDisplay() {
-        this.setPreferredSize(new Dimension(800, 600)); // Ajusta esto según tus necesidades
+        this.setPreferredSize(new Dimension(800, 600));
     }
-
     @Override
     public void show(Image image) {
         this.image = image;
